@@ -50,17 +50,17 @@ export default function Attendance() {
         </>
       ) : (
         <>
-          <div className="resultsContainer">
             <div className="numberofAttendance">
               <div>
                 <p>Katılan öğrenci sayısı</p>
                 <strong>{students.filter(x => x.isAttended).length} </strong> 
               </div>
-              <div>
-                <p>Katılmayan öğrenci sayısı</p>
-                <strong>{students.filter(x => !x.isAttended).length} </strong> </div>
+            <div>
+              <p>Katılmayan öğrenci sayısı</p>
+              <strong>{students.filter(x => !x.isAttended).length} </strong> </div>
             </div>
-            <div className="attendanceList">
+          <div className="resultsContainer">
+            <div className="attendanceStudent">
               <h3>Katılanlar</h3>
               <ul>
                 {students.filter(student => student.isAttended).map(student => (

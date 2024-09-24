@@ -177,24 +177,76 @@ button {
   font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: block;
-  margin-left: auto; 
+  margin-left: auto;
+  margin-top: 20px;
 }
 
 .numberofAttendance {
-  gap: 20px;
   display: flex;
-
-  div {
-    background-color: aliceblue;
-    padding: 20px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px
-  }
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
+.numberofAttendance div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
+.numberofAttendance p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.numberofAttendance strong {
+  display: block;
+  font-size: 24px;
+  color: #6550ab;
+}
+
+.resultsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.attendanceStudent,
+.absenceList {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.attendanceStudent h3,
+.absenceList h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.attendanceStudent ul,
+.absenceList ul {
+  padding: 0;
+  margin: 0;
+}
+
+.resultItem {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.resultItem:nth-child(even) {
+  background-color: #f1f2f6;
+}
+
+.resultItem:last-child {
+  border-bottom: none;
+}
 
 
