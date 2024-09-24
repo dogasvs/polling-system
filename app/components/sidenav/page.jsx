@@ -8,9 +8,9 @@ export default function Sidenav() {
     <div className="sidenav">
       <h3>Attendify</h3>
       <div className="sidenavElements">
-        <Link href="/"> <Homepage /> Home</Link>
-        <Link href="/Students"> <Students /> Students</Link>
-        <Link href="/attendance"> <Attendance /> Attendance</Link>
+        <Link href="/"> <Homepage /> Anasayfa</Link>
+        <Link href="/Students"> <Students /> Öğrenci listesi</Link>
+        <Link href="/attendance"> <Attendance /> Yoklama</Link>
       </div>
     </div>
   )
