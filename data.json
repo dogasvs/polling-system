@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Ahmet Yılmaz",
         "studentNumber": "2023001",
         "class": "10A",
@@ -20,7 +20,7 @@
         }
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Elif Demir",
         "studentNumber": "2023002",
         "class": "10B",
