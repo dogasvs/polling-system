@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-li {
+li:not(.studentInfoDetail li) {
   list-style: none;
 }
 
@@ -256,5 +256,45 @@ button {
   h1 {
     font-size: 60px;
     text-align: center;
+    color: #5649a3;
   }
+}
+
+.studentDetail {
+  display: flex;
+  gap: 30px;
+}
+
+.studentImage img {
+  width: 380px;
+  border-radius: 20px;
+}
+
+.studentInfo {
+  display: flex;
+  gap: 30px;
+
+  .studentInfoDetail ul {
+    padding-left: 20px;
+  }
+}
+
+.studentInfoGenel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+
+  p {
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  }
+}
+
+.studentInfoDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
